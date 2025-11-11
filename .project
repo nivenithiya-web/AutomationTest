@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>FrameWorks</name>
+=======
+	<name>cicd</name>
+>>>>>>> ea197c6 (Updated pom.xml and fixed dependency issues)
 	<comment></comment>
 	<projects>
 	</projects>

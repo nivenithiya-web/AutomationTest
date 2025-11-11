@@ -1,8 +1,12 @@
 package Frameworklearning.Test;
 
+<<<<<<< HEAD
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertTrue;
 import static org.testng.Assert.assertEquals;
+=======
+
+>>>>>>> ea197c6 (Updated pom.xml and fixed dependency issues)
 
 import java.time.Duration;
 import java.util.List;
@@ -12,11 +16,19 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+<<<<<<< HEAD
 import org.openqa.selenium.manager.windows.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import junit.framework.Assert;
+=======
+//import org.openqa.selenium.manager.windows.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+//import junit.framework.Assert;
+>>>>>>> ea197c6 (Updated pom.xml and fixed dependency issues)
 public class Standalonetest {
 
 	public static void main(String[] args) throws InterruptedException {
@@ -71,7 +83,11 @@ public class Standalonetest {
 		String confiramtionmsg= driver.findElement(By.cssSelector("button[routerlink='/dashboard/cart']")).getText();
 		
 	
+<<<<<<< HEAD
 	Assert.assertTrue(confiramtionmsg.equalsIgnoreCase("Thankyou for the order"));
+=======
+	//Assert.assertTrue(confiramtionmsg.equalsIgnoreCase("Thankyou for the order"));
+>>>>>>> ea197c6 (Updated pom.xml and fixed dependency issues)
 
 		
 		
