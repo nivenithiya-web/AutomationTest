@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Frameworklearning.Testcomponents.Listerners"/>
+  </listeners>
+  <test parallel="none" name="ErrorTest(failed)" preserve-order="true">
+    <classes>
+      <class name="Frameworklearning.Testcomponents.ErrorValidation">
+        <methods>
+          <include name="teardown"/>
+          <include name="LoginErrorTest"/>
+          <include name="landingurl"/>
+        </methods>
+      </class> <!-- Frameworklearning.Testcomponents.ErrorValidation -->
+    </classes>
+  </test> <!-- ErrorTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
