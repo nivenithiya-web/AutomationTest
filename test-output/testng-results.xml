@@ -5,6 +5,7 @@
       <![CDATA[inside fail<br>]]>
     </line>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-11-10T10:58:24Z" name="Suite" finished-at="2025-11-10T10:58:40Z" duration-ms="16111">
     <groups>
     </groups>
@@ -15,6 +16,18 @@
           </reporter-output>
         </test-method> <!-- landingurl -->
         <test-method signature="LoginErrorTest()[pri:0, instance:Frameworklearning.Testcomponents.ErrorValidation@16fdec90]" started-at="2025-11-10T16:28:28Z" name="LoginErrorTest" finished-at="2025-11-10T16:28:29Z" duration-ms="794" status="FAIL">
+=======
+  <suite started-at="2025-11-11T09:47:20Z" name="Suite" finished-at="2025-11-11T09:47:33Z" duration-ms="12686">
+    <groups>
+    </groups>
+    <test started-at="2025-11-11T09:47:20Z" name="ErrorTest" finished-at="2025-11-11T09:47:33Z" duration-ms="12686">
+      <class name="Frameworklearning.Testcomponents.ErrorValidation">
+        <test-method is-config="true" signature="landingurl()[pri:0, instance:Frameworklearning.Testcomponents.ErrorValidation@16fdec90]" started-at="2025-11-11T15:17:20Z" name="landingurl" finished-at="2025-11-11T15:17:25Z" duration-ms="4779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingurl -->
+        <test-method signature="LoginErrorTest()[pri:0, instance:Frameworklearning.Testcomponents.ErrorValidation@16fdec90]" started-at="2025-11-11T15:17:25Z" name="LoginErrorTest" finished-at="2025-11-11T15:17:26Z" duration-ms="1006" status="FAIL">
+>>>>>>> ea197c6 (Updated pom.xml and fixed dependency issues)
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  password]]]>
@@ -55,6 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginErrorTest -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="teardown()[pri:0, instance:Frameworklearning.Testcomponents.ErrorValidation@16fdec90]" started-at="2025-11-10T16:28:30Z" name="teardown" finished-at="2025-11-10T16:28:30Z" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -68,6 +82,21 @@
           </reporter-output>
         </test-method> <!-- ProductErrorValidation -->
         <test-method is-config="true" signature="teardown()[pri:0, instance:Frameworklearning.Testcomponents.ErrorValidation@16fdec90]" started-at="2025-11-10T16:28:40Z" name="teardown" finished-at="2025-11-10T16:28:40Z" duration-ms="155" status="PASS">
+=======
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Frameworklearning.Testcomponents.ErrorValidation@16fdec90]" started-at="2025-11-11T15:17:27Z" name="teardown" finished-at="2025-11-11T15:17:27Z" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="landingurl()[pri:0, instance:Frameworklearning.Testcomponents.ErrorValidation@16fdec90]" started-at="2025-11-11T15:17:27Z" name="landingurl" finished-at="2025-11-11T15:17:29Z" duration-ms="2377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingurl -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:Frameworklearning.Testcomponents.ErrorValidation@16fdec90]" started-at="2025-11-11T15:17:29Z" name="ProductErrorValidation" finished-at="2025-11-11T15:17:33Z" duration-ms="3744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Frameworklearning.Testcomponents.ErrorValidation@16fdec90]" started-at="2025-11-11T15:17:33Z" name="teardown" finished-at="2025-11-11T15:17:33Z" duration-ms="198" status="PASS">
+>>>>>>> ea197c6 (Updated pom.xml and fixed dependency issues)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
